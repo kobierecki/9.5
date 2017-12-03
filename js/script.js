@@ -1,7 +1,7 @@
 
 var buttonCount = document.querySelectorAll("button").length;
-for (var i = 0; i <= buttonCount; i++) {
-    var buttonText = document.getElementsByClassName("button");
-    alert(buttonText[i].innerText);
+var buttonArray = document.getElementsByClassName("button");
+for (var i = 0; i <= buttonCount; i++) {  
+    alert(buttonArray[i].innerText);
 }
 
